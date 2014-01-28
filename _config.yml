@@ -1,20 +1,20 @@
-title:            Balzac
+title:            Kevin Bluett
 tagline:          A beautiful theme.
 description:      Insouciant.
 #Comment out url when working locally to resolve base urls correctly
-url: http://jekyll.gtat.me
+#url: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Kevin Bluett
   avatar:         avatar.png
-  bio:            "Insouciant"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco        
-  github:         coletownsend       
-  instagram:      twnsnd     
-  dribbble:       coletownsend
-  disqus:         balzac
+  bio:            "Aesthete & Athlete"
+  email:          hey@kev.sh
+  twitter:        kevinbluett        
+  github:         kevinbluett       
+  instagram:      kevinbluett     
+  dribbble:       kevinbluett
+  disqus:         kevinbluett
   # Plug in your disqus shortname!
   
 
@@ -23,18 +23,14 @@ owner:
 links:
   - title: About
     url: /about
-  - title: Donate
-    url: http://gtat.me/balzac/donate
-    external: true
+  - title: Projects
+    url: /projects
   - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
+    url: https://github.com/KevinBluett
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Dublin
 future:      true
 pygments:    true
 markdown:    kramdown
