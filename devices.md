@@ -2,7 +2,7 @@
 layout: post-small-feature
 permalink: /ble-devices/index.html
 title: BLE Devices Nov '14
-description: The speed at which the BLE device market is growing is almost ridciolous. Quite a number of the below devices were not even available a month ago. Here we attempt review of cost and information on the chipsets used. 
+description: The speed at which the BLE device market is growing is almost ridiculous. Quite a few of the below devices were not even available a month ago! Here we attempt review of cost and information on the chipsets used. 
 tags: [about, Jekyll, theme, responsive]
 image:
   feature: water.jpg
