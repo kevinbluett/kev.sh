@@ -156,7 +156,7 @@ input {
     float: none;
     margin: 0 auto;
     @include clearfix;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 .post {
@@ -857,6 +857,8 @@ table {
     border-spacing: 0;
     empty-cells: show;
     border: 1px solid #cbcbcb;
+    width: 100%;
+    font-family: Lato, helvetica, 'sans-serif';
 }
 
 table caption {
@@ -899,7 +901,7 @@ table td {
 }
 
 /* nth-child selector for modern browsers */
-.pure-table-striped tr:nth-child(2n-1) td {
+table tr:nth-child(2n-1) td {
     background-color: #f2f2f2;
 }
 

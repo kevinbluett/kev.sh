@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: post-small-feature
 permalink: /ble-devices/index.html
-title: About the Theme
-description: Balzac is a new, fluid & responsive theme for Jekyll (and AnchorCMS). It's gloriously beautiful and suited to long form. Built on a SCSS foundation, it's organized and awesome.
+title: BLE Devices Nov '14
+description: The speed at which the BLE device market is growing is almost ridciolous. Quite a number of the below devices were not even available a month ago. Here we attempt review of cost and information on the chipsets used. 
 tags: [about, Jekyll, theme, responsive]
 image:
-  feature: soft-trees.jpg
+  feature: water.jpg
 ---
 
 The purpose of this page is not to provide a complete and comprehensive list of all BLE and BLE compatible devices, but to explore the hardware behind a majority for the purposes of my final year project.
@@ -16,23 +16,31 @@ There are quite a lot of different BLE devices being both developed and currentl
 
 The BLE device market can be condensed down to 4 different chips
 
-* Nordic Semiconductor, based around a 32bit ARM Cortex M0 [nRF51822 SoC](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822) 
-* Texas Instruments, based around an 8bit CPU [TI CC2540](http://www.ti.com/product/cc2540&DCMP=LowPowerRFICs+Other&HQS=Other+OT+cc2540)
-* Bluegiga, based around an Intel 8051 microcontroller [Bluegiga BLE113](https://www.bluegiga.com/en-US/products/bluetooth-4.0-modules/ble113-bluetooth--smart-module/) 
-* Gimbal proprietary chip, further information is currently unknown
-
+1. **Nordic Semiconductor [nRF51822 SoC](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)**
+   * Single chip, 2.4 GHz multi-protocol device
+   * 32-bit ARM Cortex M0 CPU core
+   * 256kB/128kB flash + 32kB/16kB RAM
+2. **Texas Instruments [TI CC2540](http://www.ti.com/product/cc2540&DCMP=LowPowerRFICs+Other&HQS=Other+OT+cc2540)**
+   * 8051 MCU (8 or 16 bit)
+   * In-System-Programmable Flash, 128 KB or 256 KB
+   * 8-KB SRAM
+3. **Bluegiga [Bluegiga BLE113](https://www.bluegiga.com/en-US/products/bluetooth-4.0-modules/ble113-bluetooth--smart-module/)** (suspiciously similar to the TI CC2540?)
+   * 8051 microcontroller
+   * 8kB RAM 
+   * 128kB or 256kB Flash
+4. Gimbal proprietary chip, further information is currently unknown
+   * Not much is known about the chipset
 
 ### Primed and Ready BLE Devices
-* Airfy
 
 | Title of Device | Manufacturer | CPU | Battery | Available | Pricing | Notes |
 |--- |--- |--- |--- |--- |--- |--- |
 | Estimote Sticker | Estimote | [Cortex M0 / nRF51822 SoC](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822) | Integrated Battery | Autumn 2014 (Delayed) | $10 (each)
-| Estimote Tag | Estimote 	|  [Cortex M0 / nRF51822 SoC](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822) | Integrated Battery | Yes | $33 (each)
+| Estimote Tag | Estimote 	|  [Cortex M0 / nRF51822 SoC](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822) | 620 mAh CR2450 (Not replaceable) | Yes | $33 (each)
 | Bleu Station Beacons |  Twocanoes	| N/A | USB Power | Yes | $83 (each) |
 | Redbeacon |  Twocanoes	| N/A | USB Power | Yes | $83 (each) | 
 | [Bleep Beacon](http://getbleep.com/#smart-spaces) | Rainmaker Labs | ?? | Battery ?? | Yes | $33 (each) 
-| [Gimbal](http://www.gimbal.com/) | Qualcomm | N/A | Battery(?) | No | - | Looks a little while out
+| [Gimbal](http://www.gimbal.com/) | Qualcomm | N/A | 240mAh  | No | - | Looks a little while out
 | [Particle](https://kstechnologies.com/shop/particle/) | KStechnologies | [Cortex M0 / nRF51822 SoC](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822) | 240mAh CR2032   | Yes | $40 | 
 | [Radbeacon Tag](http://store.radiusnetworks.com/collections/all/products/radbeacon-tag-1) | Radius Networks | CPU | CR2032 coin-cell battery (replaceable) | Yes | $39
 | [IKBS 105 beacons](http://ibeacon.accent-systems.com/) | Accent Systems | [TI CC2540](http://www.ti.com/product/cc2540&DCMP=LowPowerRFICs+Other&HQS=Other+OT+cc2540) ?? | 240mAh CR2032 (replaceable) |  Yes | €16 (each) | Accelerometer
