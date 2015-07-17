@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "About Me"
+title: "Journal"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: typewriter.jpg
