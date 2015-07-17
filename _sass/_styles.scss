@@ -343,6 +343,10 @@ header.site-header nav {
     min-height: 500px;
 }
 
+.archive-less-padding {
+    padding-top: 0px !important;
+}
+
 .archive-wrap {
     @include column(10);
     max-width: 800px;
@@ -350,7 +354,25 @@ header.site-header nav {
     margin: 0 auto;
     float: none;
     padding-top: 140px;
-    
+
+    figure {
+        margin: 0px auto 30px auto;
+        width: 65%;
+        height: auto;
+        display: block;
+
+        img {
+            margin-left: 30px;
+            width: 100%;
+            height: auto;
+            display: block;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+        }
+    }
+
+        
     // Post Listing
     .post-list {
         list-style-type: none;
@@ -430,6 +452,29 @@ header.site-header nav {
             color: $grey-light;
             text-transform: uppercase;
             vertical-align: middle;
+        }
+    }
+
+    .cta {
+        text-align: center;
+        display: inline-block;
+        width: auto;
+        font-size: $fs5;
+        font-family: $sans;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 8px 10px 8px 10px;
+        margin: 18px;
+        margin-top: 0px;
+        margin-bottom: 35px;
+        color: $grey-dark;
+        border: 2px solid transparentize($grey-dark,.3);
+        @include br(4px);
+        &:hover {
+            color: $link;
+            border-color: transparentize($link,.3);
+            @include transit(all,.2s,ease)
         }
     }
 }

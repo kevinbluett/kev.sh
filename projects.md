@@ -15,7 +15,21 @@ This is built on Semantic.gs grid framework which I edited a bit to make it flui
 * responsive drop down menu
 * retina images using @2x
 * post loop in the footer showing 3 latest post
-* custom portfolio page for case studies
+* custom portfolio page for case 
+
+### Fullstack Ltd. ([www.fullstack.cc](http://www.fullstack.cc){:target="_blank"})
+
+Fullstack was a team of product developers and software engineers based in Ireland.
+
+#### Services provided VC backed startups included:
+
+* Building products in Ruby, PHP, Python and for Android and iOS
+* Providing consultancy on agile development, scrum and technology planning
+* Designing and delivering great user experiences
+
+### BT River of Music ([www.archive.org](https://web.archive.org/web/20120701204901/http://www.btriverofmusic.com/){:target="_blank"})
+
+The BT River of Music was a free music festival run in London a month before the olympics, with 5 stages across London, each stage themed to a different culture. Provided system admin services for a site that had over 180,000 unique visitors over the course 48 hours of the music festival. Developed the site from the PSDs provided from the designer, and integrated designs to the Expression Engine CMS. (Technologies: ExpressionEngine, LAMP)
 
 ### Acknowledgements
 I utilized my own HTML templates, but had no prior knowledge of liquid nor the required Jekyll system file format. I took [Michael Rose](http://twitter.com/mmistakes)'s theme [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/). Having a prebuilt archive and the YAML front-matter already set up was a great help. 

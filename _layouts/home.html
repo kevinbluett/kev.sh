@@ -1,8 +1,21 @@
 {% include head-dark.html %}
 
-    <div id='bump'>
+      <section class=" ">
+
+        <article class="archive-wrap">
+            <figure>
+              <img src="/images/me.jpg">
+            </figure>
+            <ol class="post-list">
+               <lh><h2><span class="bb">Who am I?</span></h2></lh>
+                <p>I'm a 22 year old graduate of Computer Science, who has dabbled in the start-ups and has a rather extreme love (addiction?) of coffee!</p>
+                <a class="cta" href="http://www.kevinbluett.ie/pdf/kevin-bluett-cv.html">About Me</a><a class="cta" href="http://www.github.com/kevinbluett">GitHub Profile</a><a class="cta" href="mailto:hello@kevinbluett.ie">Contact Me</a>
+            </ol>
+        </article>
+      </section>
+    <div id=''>
         <section class="article archive">
-          <article class="archive-wrap">
+          <article class="archive-wrap archive-less-padding">
               <ol class="post-list">
                  <lh><h2><span class="bb">{{ page.title }}</span></h2></lh>
                   {% for post in site.posts %}
