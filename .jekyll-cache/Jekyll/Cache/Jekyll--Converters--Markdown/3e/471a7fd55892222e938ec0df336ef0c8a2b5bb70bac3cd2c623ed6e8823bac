@@ -1,0 +1,357 @@
+I"b1<p>The purpose of this page is not to provide a complete and comprehensive list of all BLE and BLE compatible devices, but to explore the hardware behind a majority for the purposes of my final year project.</p>
+
+<p>There are quite a lot of different BLE devices being both developed and currently released. AisleLabs has a comprehensive list of primed and ready BLE devices <a href="http://www.aislelabs.com/reports/beacon-guide/#conc">here</a>.</p>
+
+<h3 id="chipsets">Chipsets</h3>
+
+<p>The BLE device market can be condensed down to 4 different chips</p>
+
+<ol>
+  <li><strong>Nordic Semiconductor <a href="https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822">nRF51822 SoC</a></strong>
+    <ul>
+      <li>Single chip, 2.4 GHz multi-protocol device</li>
+      <li>32-bit ARM Cortex M0 CPU core</li>
+      <li>256kB/128kB flash + 32kB/16kB RAM</li>
+    </ul>
+  </li>
+  <li><strong>Texas Instruments <a href="http://www.ti.com/product/cc2540&amp;DCMP=LowPowerRFICs+Other&amp;HQS=Other+OT+cc2540">TI CC2540</a></strong>
+    <ul>
+      <li>8051 MCU (8 or 16 bit)</li>
+      <li>In-System-Programmable Flash, 128 KB or 256 KB</li>
+      <li>8-KB SRAM</li>
+    </ul>
+  </li>
+  <li><strong>Bluegiga <a href="https://www.bluegiga.com/en-US/products/bluetooth-4.0-modules/ble113-bluetooth--smart-module/">Bluegiga BLE113</a></strong> (suspiciously similar to the TI CC2540?)
+    <ul>
+      <li>8051 microcontroller</li>
+      <li>8kB RAM</li>
+      <li>128kB or 256kB Flash</li>
+    </ul>
+  </li>
+  <li>Gimbal proprietary chip, further information is currently unknown
+    <ul>
+      <li>Not much is known about the chipset</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="primed-and-ready-ble-devices">Primed and Ready BLE Devices</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title of Device</th>
+      <th>Manufacturer</th>
+      <th>CPU</th>
+      <th>Battery</th>
+      <th>Available</th>
+      <th>Pricing</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Estimote Sticker</td>
+      <td>Estimote</td>
+      <td><a href="https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822">Cortex M0 / nRF51822 SoC</a></td>
+      <td>Integrated Battery</td>
+      <td>Autumn 2014 (Delayed)</td>
+      <td>$10 (each)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Estimote Tag</td>
+      <td>Estimote</td>
+      <td><a href="https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822">Cortex M0 / nRF51822 SoC</a></td>
+      <td>620 mAh CR2450 (Not replaceable)</td>
+      <td>Yes</td>
+      <td>$33 (each)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Bleu Station Beacons</td>
+      <td>Twocanoes</td>
+      <td>N/A</td>
+      <td>USB Power</td>
+      <td>Yes</td>
+      <td>$83 (each)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Redbeacon</td>
+      <td>Twocanoes</td>
+      <td>N/A</td>
+      <td>USB Power</td>
+      <td>Yes</td>
+      <td>$83 (each)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://getbleep.com/#smart-spaces">Bleep Beacon</a></td>
+      <td>Rainmaker Labs</td>
+      <td>??</td>
+      <td>Battery ??</td>
+      <td>Yes</td>
+      <td>$33 (each)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://www.gimbal.com/">Gimbal</a></td>
+      <td>Qualcomm</td>
+      <td>N/A</td>
+      <td>240mAh</td>
+      <td>No</td>
+      <td>-</td>
+      <td>Looks a little while out</td>
+    </tr>
+    <tr>
+      <td><a href="https://kstechnologies.com/shop/particle/">Particle</a></td>
+      <td>KStechnologies</td>
+      <td><a href="https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822">Cortex M0 / nRF51822 SoC</a></td>
+      <td>240mAh CR2032</td>
+      <td>Yes</td>
+      <td>$40</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://store.radiusnetworks.com/collections/all/products/radbeacon-tag-1">Radbeacon Tag</a></td>
+      <td>Radius Networks</td>
+      <td>CPU</td>
+      <td>CR2032 coin-cell battery (replaceable)</td>
+      <td>Yes</td>
+      <td>$39</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://ibeacon.accent-systems.com/">IKBS 105 beacons</a></td>
+      <td>Accent Systems</td>
+      <td><a href="http://www.ti.com/product/cc2540&amp;DCMP=LowPowerRFICs+Other&amp;HQS=Other+OT+cc2540">TI CC2540</a> ??</td>
+      <td>240mAh CR2032 (replaceable)</td>
+      <td>Yes</td>
+      <td>€16 (each)</td>
+      <td>Accelerometer</td>
+    </tr>
+    <tr>
+      <td><a href="http://aprbrother.com/en/product/AprilBeacon%20241s.htm">AprilBeacon 241</a></td>
+      <td>April Brother</td>
+      <td><a href="http://www.ti.com/product/cc2540&amp;DCMP=LowPowerRFICs+Other&amp;HQS=Other+OT+cc2540">TI CC2540</a></td>
+      <td>620mAh CR2450 (replaceable)</td>
+      <td>Yes</td>
+      <td>$15</td>
+      <td>Very small, chip same size as battery</td>
+    </tr>
+    <tr>
+      <td><a href="http://bluesensenetworks.com/product/bluebar-beacon/">BlueBar Beacon</a></td>
+      <td>BlueSense Networks (UK)</td>
+      <td><a href="https://www.bluegiga.com/en-US/products/bluetooth-4.0-modules/ble113-bluetooth--smart-module/">Bluegiga BLE113</a></td>
+      <td>620mAh CR2450 (replaceable)</td>
+      <td>Yes</td>
+      <td>£20.99</td>
+      <td>Long range extender available, with it indoor range 200m, line of sight 450m</td>
+    </tr>
+    <tr>
+      <td><a href="http://glimwormbeacons.com/">Glimworm</a></td>
+      <td>Gilmworm</td>
+      <td><a href="http://www.ti.com/product/cc2540&amp;DCMP=LowPowerRFICs+Other&amp;HQS=Other+OT+cc2540">TI CC2540</a> ??</td>
+      <td>620mAh CR2450 (replaceable)</td>
+      <td>Yes</td>
+      <td>€24.50</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://kontakt.io/our-technology/technical-specification/">kontact.io</a></td>
+      <td>kontact.io</td>
+      <td><a href="https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822">Cortex M0 / nRF51822 SoC</a></td>
+      <td>1000 mAh CR2477 (replaceable)</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="www.alibaba.com/product-detail/iBeacon-based-on-CC2541-module-with_1483638858.html">MineW</a></td>
+      <td>Shenzhen Minew Technologies</td>
+      <td><a href="http://www.ti.com/product/cc2540&amp;DCMP=LowPowerRFICs+Other&amp;HQS=Other+OT+cc2540">TI CC2540</a></td>
+      <td>1000mAH CR2477 (replaceable)</td>
+      <td>Yes</td>
+      <td>$8</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://reco2.me/reco/">Recco</a></td>
+      <td>Perples, Inc / LG</td>
+      <td><a href="https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822">Cortex M0 / nRF51822 SoC</a></td>
+      <td>620mAh CR2450</td>
+      <td>Yes</td>
+      <td>$30</td>
+      <td>They’re gorgeous!</td>
+    </tr>
+    <tr>
+      <td><a href="https://roximity.com/model-x/">Model X</a></td>
+      <td>Roximity</td>
+      <td><a href="https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822">Cortex M0 / nRF51822 SoC</a></td>
+      <td>240mAh CR2032</td>
+      <td>Yes</td>
+      <td>$66</td>
+      <td>Seems very business focused</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.sensorberg.com/en/#shopify-store">Sensorberg</a></td>
+      <td>Sensorberg</td>
+      <td><a href="http://www.ti.com/product/cc2540&amp;DCMP=LowPowerRFICs+Other&amp;HQS=Other+OT+cc2540">TI CC2540</a></td>
+      <td>620 mAh CR2450</td>
+      <td>Yes</td>
+      <td>€30</td>
+      <td>Has online platform &amp; SDK</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.ti.com/ww/en/wireless_connectivity/sensortag/index.shtml?DCMP=sensortag&amp;HQS=sensortag-bn">SensorTag</a></td>
+      <td>Texas Instruments</td>
+      <td><a href="http://www.ti.com/product/cc2540&amp;DCMP=LowPowerRFICs+Other&amp;HQS=Other+OT+cc2540">TI CC2540</a></td>
+      <td>240 mAh CR2032</td>
+      <td>Yes</td>
+      <td>$25</td>
+      <td>Lots of integrated sensors</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.todhq.com/index.html">Tōd</a></td>
+      <td>Tōdally</td>
+      <td><a href="https://www.bluegiga.com/en-US/products/bluetooth-4.0-modules/ble113-bluetooth--smart-module/">Bluegiga BLE113</a></td>
+      <td>240mAh CR2032</td>
+      <td>Yes</td>
+      <td>$40</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://www.getgelo.com/beacons/">Gelo</a></td>
+      <td>Gelo Inc.</td>
+      <td>Unknown</td>
+      <td>2xAAA ~1000mAh</td>
+      <td>Yes</td>
+      <td>$35</td>
+      <td>Works in all weather conditions</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.kickstarter.com/projects/261147844/airfy-beacon-imagination-meets-smart-home-automati/comments">Airfy Beacon</a></td>
+      <td>Airfy</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>No</td>
+      <td>-</td>
+      <td>Currently in kickstarter</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="ble-chipsshields">BLE Chips/Shields</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title of Device</th>
+      <th>Manufacturer</th>
+      <th>CPU</th>
+      <th>Available</th>
+      <th>Pricing</th>
+      <th>SDK(s)</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://redbearlab.com/blenano/">BLE Nano</a></td>
+      <td>Redbear Labs</td>
+      <td><a href="http://www.arm.com/products/processors/cortex-m/cortex-m0.php">ARM Cortex M0</a></td>
+      <td>Yes</td>
+      <td>$38 (Incl. USB Board)</td>
+      <td><a href="http://redbearlab.com/blenano/#programming">Multiple</a></td>
+      <td>USB Board available, board is <a href="https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822">Nordic nRF51822 SoC</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://redbearlab.com/blendmicro/">Blend Micro</a></td>
+      <td>Redbear Labs</td>
+      <td><a href="http://www.atmel.com/devices/atmega32u4.aspx">Atmel ATmega32U4</a></td>
+      <td>No</td>
+      <td>N/A</td>
+      <td><a href="https://devzone.nordicsemi.com/arduino/">Nordic Arduino SDK</a></td>
+      <td>UART for compatibility to Raspiberry Pi, Arduino etc..</td>
+    </tr>
+    <tr>
+      <td><a href="http://redbearlab.com/blend/">Blend</a></td>
+      <td>Redbear Labs</td>
+      <td><a href="http://www.atmel.com/devices/atmega32u4.aspx">Atmel ATmega32U4</a></td>
+      <td>No</td>
+      <td>N/A</td>
+      <td><a href="https://devzone.nordicsemi.com/arduino/">Nordic Arduino SDK</a></td>
+      <td>UART for compatibility to Raspiberry Pi, Arduino etc..</td>
+    </tr>
+    <tr>
+      <td><a href="http://redbearlab.com/bleshield/">BLE Shield</a></td>
+      <td>Redbear Labs</td>
+      <td>Slave Operation</td>
+      <td>Yes</td>
+      <td>$23.66</td>
+      <td><a href="https://devzone.nordicsemi.com/arduino/">Nordic Arduino SDK</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://redbearlab.com/blemini/">BLE Mini</a></td>
+      <td>Redbear Labs</td>
+      <td><a href="http://www.ti.com/product/cc2540&amp;DCMP=LowPowerRFICs+Other&amp;HQS=Other+OT+cc2540">TI CC2540</a></td>
+      <td>Yes</td>
+      <td>$23.66</td>
+      <td> </td>
+      <td>Broken link to SDK</td>
+    </tr>
+    <tr>
+      <td><a href="http://bleduino.cc/">BLEduino</a></td>
+      <td>Kytelabs</td>
+      <td><a href="http://www.atmel.com/devices/atmega32u4.aspx">Atmel ATmega32U4</a></td>
+      <td>No</td>
+      <td>N/A</td>
+      <td>-</td>
+      <td>Kickstarter active</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="programmable-ble-devices">Programmable BLE Devices</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title of Device</th>
+      <th>Manufacturer</th>
+      <th>CPU</th>
+      <th>Available</th>
+      <th>Pricing</th>
+      <th>SDK(s)</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://punchthrough.com/bean/">LightBlue Bean</a></td>
+      <td>Punch Through Design</td>
+      <td><a href="http://www.ti.com/product/cc2540&amp;DCMP=LowPowerRFICs+Other&amp;HQS=Other+OT+cc2540">TI CC2540</a></td>
+      <td>Yes</td>
+      <td>$28.50 (each)</td>
+      <td>Arduino</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://www.makershed.com/products/intel-edison-breakout-board-kit">Edison</a></td>
+      <td>Intel</td>
+      <td><a href="https://software.intel.com/en-us/android/articles/introducing-4th-generation-intel-atom-processor-baytrail-to-android-developers">Atom Slivermont 22nm</a></td>
+      <td>Yes</td>
+      <td>$75</td>
+      <td>Arduino</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="unreleasedvaporware-ble-devices">Unreleased/Vaporware BLE Devices</h3>
+<ul>
+  <li><a href="http://wearpoint.com/">Wearpoint</a></li>
+</ul>
+:ET

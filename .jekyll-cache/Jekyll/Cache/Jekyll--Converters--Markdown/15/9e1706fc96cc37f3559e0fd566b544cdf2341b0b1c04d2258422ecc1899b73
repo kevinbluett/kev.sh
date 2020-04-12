@@ -1,0 +1,96 @@
+I"�
+<!-- This is a post that uses a `figure`. It stacks these images and places a nice little caption below if you fill out `figcaption`. -->
+
+<!-- ### Single Image Figure -->
+
+<figure>
+	<img src="/images/vietnam/1.jpg" />
+	<figcaption>Sunday Market in Changmai, Thailand</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/2.jpg" />
+	<figcaption>Sunset at Sunday Market in Changmai, Thailand</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/4.jpg" />
+	<figcaption>Dragon at Buddist Monastery in Changmai, Thailand</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/5.jpg" />
+	<figcaption>Street in Hanoi, Vietnam on reunification day</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/6.jpg" />
+	<figcaption>Palace of Literature in Hanoi, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/7.jpg" />
+	<figcaption>Bamboo ladder shop in Hanoi, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/9.jpg" />
+	<figcaption>Ha Long Bay, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/8.jpg" />
+	<figcaption>Sung Sot Caves in Ha Long Bay, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/10.jpg" />
+	<figcaption>Sunset in Cat Bá, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/11.jpg" />
+	<figcaption>Morning walk in Hué, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/12.jpg" />
+	<figcaption>View from the pass travelling from Hué to Hoi An, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/13.jpg" />
+	<figcaption>Bridge in Hoi An, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/14.jpg" />
+	<figcaption>Traffic in Ho Chi Min City, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/15.jpg" />
+	<figcaption>Reunification Palace in Ho Chi Min City, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/16.jpg" />
+	<figcaption>Tour of floating markets in Mekong Delta, Vietnam</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/vietnam/17.jpg" />
+	<figcaption>Tour of floating markets in Mekong Delta, Vietnam</figcaption>
+</figure>
+<!--
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="nt">&lt;figure&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/vietnam/image-filename-1.jpg"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;figcaption&gt;</span>Caption describing these two images.<span class="nt">&lt;/figcaption&gt;</span>
+<span class="nt">&lt;/figure&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+-->
+:ET
