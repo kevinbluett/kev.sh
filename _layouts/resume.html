@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+  <div>Loading please wait... <a href="/assets/pdf/kevin-bluett-cv.pdf">Click here if loading fails</a></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+  <script>
+    var options = {
+        height: "400px",
+        page: '2',
+        pdfOpenParams: {
+            view: 'FitV',
+            pagemode: 'thumbs',
+            search: 'lorem ipsum'
+        }
+    };
+
+    PDFObject.embed("/assets/pdf/kevin-bluett-cv.pdf");
+  </script> 
+</body>
+</html>

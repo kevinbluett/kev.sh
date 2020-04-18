@@ -1,6 +1,6 @@
-# Balzac
+# kevinbluett.ie / kev.sh
 
-This is forked from [minimal mistakes](http://mademistakes.com). I needed some type of framework to build off as I have no experience with Jekyll. Michael already wrote up an incredibly comprehensive readme.md so I basically copied all of it and replaced what was necessary.
+These the the files that makeup my personal website :)
 
 
 ## Forked From / Base Template
