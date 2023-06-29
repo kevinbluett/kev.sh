@@ -7,9 +7,9 @@
               <img src="/images/me.jpg" alt="Picture of Kevin Bluett looking into the distance">
             </figure>
             <ol class="post-list">
-               <lh><h2><span class="bb">Who am I?</span></h2></lh>
-                <p>I'm Kevin Bluett, Engineering Lead at <a href="https://www.hubspot.com">HubSpot</a>, a graduate of Computer Science, who has dabbled in the start-ups and has a rather extreme love (addiction?) of coffee!<br /><br /> Currently a living in Dublin, Ireland.</p>
-                <a class="cta" href="/cv-resume/">About Me</a><a class="cta" href="http://www.github.com/kevinbluett">GitHub Profile</a><a class="cta" href="mailto:hello@kevinbluett.ie">Contact Me</a>
+               <lh><h2><span class="bb">About Me</span></h2></lh>
+                <p>I'm Kevin Bluett, Engineering Group Lead at <a href="https://www.hubspot.com">HubSpot</a>, who has dabbled in the start-ups/companies and has a rather extreme love (addiction?) of coffee!<br /><br /> Currently a living in Dublin, Ireland.</p>
+                <a class="cta" href="https://www.linkedin.com/in/kevinbluett?originalSubdomain=ie">LinkedIn</a> <a class="cta" href="http://www.github.com/kevinbluett">GitHub</a><a class="cta" href="mailto:hello@kevinbluett.ie">Contact Me</a>
             </ol>
         </article>
       </section>
@@ -22,7 +22,8 @@
                   <li>
                     <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                         <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-                        <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                        {% comment %}<p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endcomment %}
+                        <p></p>
                         <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
                     </div>
                   </li>

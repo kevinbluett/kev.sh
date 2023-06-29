@@ -6,7 +6,7 @@
             {% for post in site.posts | limit:3 %}
                 <li>
                   <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
-                  <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
+                  <span class="date">{% comment %}{{post.date | date: "%b %d, %Y" }}{% endcomment %}</span>
                 </li>
             {% endfor %}
           </ol>
@@ -26,7 +26,6 @@
             </ul>
         </div>
         </aside>
-        <small>Hosted with  <a href="http://pages.github.com/">GitHub Pages</a> &amp; <a href="http://aws.amazon.com/route53/">Route 53</a><br />&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. <a href="http://jekyllrb.com">Jekyll</a> using <a href="http://jekyll.gtat.me/about">Balzac</a>.</small>
       </footer>
     </div>
   
