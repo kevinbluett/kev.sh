@@ -8,7 +8,7 @@ url: https://www.kev.sh
 owner:
   name:           Kevin Bluett
   avatar:         avatar.png
-  bio:            "Software Engineer"
+  bio:            "CEO & Co-Founder"
   email:          hey@kev.sh
   twitter:        kevinbluett        
   github:         kevinbluett       
@@ -22,9 +22,6 @@ owner:
 links:
   # - title: Previous Work
     # url: /projects
-  - title: Github
-    url: https://github.com/KevinBluett
-    external: true
   - title: Contact
     url: mailto:hello@kevinbluett.ie
     external: true
